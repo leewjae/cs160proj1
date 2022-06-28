@@ -1,0 +1,19 @@
+.placeholder {
+    height : 11vh
+}
+
+.trail {
+    max-width: 30vw;
+    display: flex;
+    flex-direction: row;
+    background-color: azure;
+}
+
+.trails {
+    display: flex;
+}
+
+.trailImage {
+    height: 20vh;
+    width: 20vh;
+}

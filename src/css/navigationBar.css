@@ -1,0 +1,6 @@
+.navigationBar {
+    min-width: auto;
+    position: fixed;
+    bottom : 0vh;
+    background-color: beige;
+}
