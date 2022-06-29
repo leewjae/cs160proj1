@@ -7,11 +7,10 @@ const Trail = (props) => {
             {props.checked ? 
             <img src={require("../images/checkmark.png")} alt = {props.name} className = "trailImage" />
             :
-            <img src={require("../images/" + props.name + ".jpg")} alt = {props.name} className = "trailImage" />
+            <img src={require("../images/" + props.name)} alt = {props.name} className = "trailImage" />
              }
             <Col>
             <h2>{props.title}</h2>
-            <h4>{props.description}</h4>
             </Col>
         </Container>
     )

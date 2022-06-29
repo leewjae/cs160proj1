@@ -1,6 +1,21 @@
-.navigationBar {
-    min-width: auto;
+.wrapper {
     position: fixed;
-    bottom : 0vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
     background-color: beige;
-}
+  }
+  
+  nav {
+    overflow: hidden;
+    border-top: 2px solid grey;
+  }
+  nav > div {
+    float: left;
+    width: 25%;
+    text-align: center;
+  
+    height: 45px;
+    line-height: 100px;
+  }

@@ -7,7 +7,7 @@ import Main from './pages/Main'
 import PageNotFound from './pages/PageNotFound'
 import Search from "./pages/Search";
 import TrailDetail from "./pages/TrailDetail";
-
+import CompareDetail from "./pages/CompareDetail";
 const AppRouter = () => {
   return (
     <>
@@ -17,6 +17,7 @@ const AppRouter = () => {
             <Route path= "/gps" element ={<Gps />} />
             <Route path= "/search" element = {<Search />} />
             <Route path= "/compare" element = {<Compare />} />
+            <Route path= "/comparedetail" element = {<CompareDetail />} />
             {/* Will add dynamic routing in the future. I have no time */}
             <Route path= "/trails/Recommended-for-Beginners" element = {<TrailDetail name = "Recommended-for-Beginners"/>} />
             <Route element = {<PageNotFound />}/>
