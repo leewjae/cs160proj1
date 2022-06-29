@@ -1,5 +1,6 @@
 import React from "react";
 import { Row } from "reactstrap";
+import { Link } from "react-router-dom";
 const TrailDetail = (props) => {
 
     return(
@@ -27,6 +28,9 @@ const TrailDetail = (props) => {
                     Elevation Gain: 120 feet
                 </p>
             </div>
+            <Link to= '/gps'>
+            <button style={{width : '100%'}}>Start this trail </button>
+            </Link>
         </>
     )
 }
